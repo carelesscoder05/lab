@@ -41,10 +41,15 @@ sudo apt upgrade
 Install required packages:
 
 sudo apt install python3-pip python3-dev build-essential
-pip3 install adafruit-circuitpython-dht
 sudo apt install libgpiod2
+sudo apt install python3-rpi.gpio python3-pip
+sudo apt install python3-adafruit-dht
+
+pip3 install adafruit-circuitpython-dht
 pip3 install Adafruit_DHT
 pip3 install RPi.GPIO
+
+
 
 If install fails:
 
